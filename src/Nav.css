@@ -1,0 +1,24 @@
+.nav {
+  position: fixed;
+  display: flex;
+  padding: 20px;
+  height: 30px;
+  z-index: 1;
+  transition: all 0.5s ease-in;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav__black {
+  background-color: #111;
+}
+
+.nav__logo {
+  color: #e50914;
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
